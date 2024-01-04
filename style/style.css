@@ -1,3 +1,52 @@
-h1{
-    color: red;
+
+.flag_body {
+    width: 500px;
+    height: 250px;
+    background-color: green;
+    position: relative;
+    transform: translate(40%, 50%);
 }
+
+.flag_circle {
+    position: absolute;
+    background-color: red;
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flag_handle{
+    height: 300px;
+    width: 30px;
+    position: relative;
+    background-color: black;
+    top: 90%;
+    border-top-right-radius: 30px;
+}
+
+.flag_bottom{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    top: 100%;
+    transform: translate(-30%);
+}
+.flag_bottom_2nd{
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    background-color: black;
+    top: 100%;
+}
+.flag_bottom_3rd {
+    position: absolute;
+    width: 255px;
+    height: 45px;
+    background-color: black;
+    top: 100%;
+}
+
